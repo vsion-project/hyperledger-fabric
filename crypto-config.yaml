@@ -1,0 +1,42 @@
+# Copyright CRIPTOVISION.COM Rights Reserved.
+# Autor: CTO, cto@criptovision.com
+# Date: 24-05-2021
+# SPDX-License-Identifier: Apache-2.0
+#
+OrdererOrgs:
+    - Name: Orderer
+      Domain: criptovision.com
+      EnableNodeOUs: true
+      Specs:
+        - Hostname: orderer
+          SANS:
+            - localhost
+PeerOrgs:
+    - Name: Org1
+      Domain: org1.criptovision.com
+      EnableNodeOUs: true
+      Template:
+        Count: 1
+        SANS:
+          - localhost
+      Users:
+        Count: 1
+    - Name: Org2
+      Domain: org2.criptovision.com
+      EnableNodeOUs: true
+      Template:
+        Count: 1
+        SANS:
+          - localhost
+      Users:
+        Count: 1
+    - Name: Org3
+      Domain: org3.criptovision.com
+      EnableNodeOUs: true    
+      Template:
+        Count: 1
+        SANS:
+          - localhost
+      Users:
+        Count: 1
+  
