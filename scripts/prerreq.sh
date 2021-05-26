@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #
-# Business Blockchain Training & Consulting SpA. All Rights Reserved.
+# CRIPTOVISION.COM All Rights Reserved.
 #
-# www.blockchainempresarial.com
+# www.criptovision.com
 #
-# email: ricardo@blockchainempresarial.com
+# email: cto@criptovision.com.com
 #
 tmppwd=$PWD
 #Utils
